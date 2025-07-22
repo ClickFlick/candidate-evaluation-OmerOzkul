@@ -1,16 +1,29 @@
-# About this project
+# Digital Goods Store + Token Ledger System
 
-This project is developed for the display and sale of digital goods. You will be able to revolutionize the purpose of your project in just a few dozen minutes of creation, and show us the new and transformed look of your project.
+This project is developed for the display and sale of digital goods — now enhanced with a blockchain-style **Token Ledger** simulation. You will be able to revolutionize your project in just a few dozen minutes and experience a transformed utility with token minting, transferring, and real-time logging.
+
+> Developed by **Omer Faruk Ozkul**
 
 ## Tech Stack
 
 - Frontend: React.js, HTML, CSS
-- Backend: MockBee
+- Backend: MockBee, MirageJS (extended)
 - Payment Integration: Razorpay
 - Deployment: Netlify
-- Other Libraries and Tools: React Router, Axios, JWT, etc.
+- Other Libraries and Tools: React Router, Axios, JWT, Toast, React Tilt
 
 ## Features
+
+### Token Ledger (Simulated Smart Contract)
+
+- ✅ Mint Tokens (admin/owner only)
+- ✅ Transfer Tokens with password confirmation
+- ✅ Check balance (self and others)
+- ✅ Role-based access control for minting
+- ✅ Transaction log system (like a block explorer)
+- ✅ Logs page with user-friendly UI
+
+### Core eCommerce Functionality
 
 - Authentication
   - Login
@@ -36,18 +49,11 @@ This project is developed for the display and sale of digital goods. You will be
 - Order History
 - Apply Coupons
 - Payment Integration
-- Responsive
+- Responsive Design
 
 ## Run Locally
 
 Install dependencies
 
 ```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
+npm install
