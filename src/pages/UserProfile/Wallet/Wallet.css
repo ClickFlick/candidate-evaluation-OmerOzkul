@@ -1,0 +1,32 @@
+.wallet-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.wallet-section {
+  margin-top: 1.5rem;
+}
+
+.wallet-section input {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.wallet-section button {
+  padding: 0.5rem 1rem;
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wallet-section button:hover {
+  background-color: #005f73;
+}
